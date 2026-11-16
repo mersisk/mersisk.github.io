@@ -19,7 +19,7 @@ h1{font-size:clamp(34px,7vw,68px);line-height:1.02;letter-spacing:-.03em;margin:
 h2{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--line);padding-top:20px;margin:56px 0 28px}
 .work{display:grid;grid-template-columns:1.15fr 1fr;gap:32px;align-items:center;margin-bottom:56px}
 .work:nth-of-type(even) img{order:2}
-.work img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:10px;display:block;background:var(--line)}
+.work img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:10px;display:block;background:var(--line)}
 .work h3{font-size:30px;letter-spacing:-.02em;margin:6px 0 10px}
 .work p{margin:0 0 12px}
 .tags{font:13px/1.4 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--muted);margin-bottom:18px}
@@ -31,6 +31,9 @@ h2{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute
 .steps li::before{content:"0" counter(s);font:600 13px -apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--accent);letter-spacing:.1em}
 .steps b{display:block;font:600 19px/1.25 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;margin:8px 0 6px}
 .steps span{color:var(--muted);font-size:16px}
+.prices li::before{content:none}
+.note{color:var(--muted);font-size:15px;max-width:70ch;margin:22px 0 0}
+.cta{font-size:22px;max-width:36ch;margin:0 0 22px}
 footer{padding:56px 0 72px;color:var(--muted);font-size:15px}
 footer a{color:inherit}
 @media (max-width:760px){
@@ -45,8 +48,9 @@ footer a{color:inherit}
 <div class="wrap">
   <header>
     <div class="kicker">Mersik · Владивосток и Большой Камень</div>
-    <h1>Сайты, которые приводят заявки</h1>
-    <p class="lead">Делаю сайты под ключ для артистов, аниматоров и небольшого бизнеса Приморья: от первого разговора до работающего адреса в интернете.</p>
+    <h1>Сайт для вашего дела за три дня</h1>
+    <p class="lead">Делаю сайты под ключ для небольшого бизнеса Приморья: кафе, автосервисов, баз отдыха, студий и артистов. Сначала показываю готовый черновик, оплата — после того, как он вам понравился.</p>
+    <p style="margin:26px 0 0"><a class="btn" href="#contact">Обсудить сайт</a><a class="btn ghost" href="#price">Цены</a></p>
   </header>
 
   <main>
@@ -82,6 +86,18 @@ footer a{color:inherit}
       <li><b>Первая версия за 3 дня</b><span>Показываю живой сайт, а не картинку. Правим вместе.</span></li>
       <li><b>Запуск и поддержка</b><span>Домен, хостинг, телефон и компьютер. Дальше обновляю по запросу.</span></li>
     </ol>
+
+    <h2 id="price">Цены</h2>
+    <ol class="steps prices">
+      <li><b>Одна страница — от 15 000 ₽</b><span>Услуги и цены, фотографии, адрес, кнопки «Позвонить» и «Написать». Подходит большинству.</span></li>
+      <li><b>Сайт с разделами — 25 000–40 000 ₽</b><span>До пяти страниц: каталог или меню, галерея, отзывы, отдельные страницы услуг.</span></li>
+      <li><b>Поддержка — 1 500 ₽ в месяц</b><span>По желанию: меняю цены, фото и тексты, слежу, чтобы сайт работал.</span></li>
+    </ol>
+    <p class="note">Домен и хостинг — около 2 000 ₽ в год, оформляются на вас. Сайты делаю без форм сбора данных: посетитель сразу звонит или пишет вам в мессенджер, поэтому не нужно оформлять обработку персональных данных.</p>
+
+    <h2 id="contact">Связаться</h2>
+    <p class="cta">Напишите, чем вы занимаетесь, — пришлю черновик сайта для вашего дела. Это бесплатно и ни к чему не обязывает.</p>
+    <p><a class="btn" href="#">[твой Telegram]</a></p>
   </main>
 
   <footer>
