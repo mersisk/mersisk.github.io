@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Дикий Дом — шатры в лесу у моря, Подъяпольское</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&family=Manrope:wght@400;600;700&display=swap">
+<style>:root{--bg:#f7f5ef;--card:#fffdf8;--sand:#e8daba;--fg:#23291f;--muted:#666c5b;--line:#ddd8c9;--olive:#536648;--forest:#2c3827;--cream:#f7f5ef;--font-h:"Unbounded","Arial Black",sans-serif;--font-b:"Manrope",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;--ease:cubic-bezier(.23,1,.32,1)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 var(--font-b);-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--olive);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.demo{background:#161b13;color:#fff;font:12px/1.4 var(--font-b);padding:6px 14px;text-align:center}
+.top{position:sticky;top:0;z-index:20;background:var(--forest);color:var(--cream)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:12px;padding-bottom:12px}
+.brand{font:500 15px/1 var(--font-h);text-transform:uppercase;letter-spacing:.06em;text-decoration:none}
+nav{display:none}
+nav a{font-size:14px;margin-left:20px;text-decoration:none;opacity:.8}
+nav a:hover{opacity:1}
+h1,h2,h3{font-family:var(--font-h);font-weight:500;margin:0;text-wrap:balance}
+h1,h2{text-transform:uppercase;line-height:1.14}
+h1{font-size:clamp(27px,4.6vw,58px)}
+h2{font-size:clamp(22px,3.2vw,38px)}
+h3{font-size:17px;line-height:1.25}
+.eyebrow{font-size:13px;font-weight:600;color:var(--olive);margin-bottom:10px}
+.lead{font-size:17px;max-width:46ch;margin:16px 0 0}
+.intro{color:var(--muted);max-width:56ch;margin:12px 0 26px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border-radius:999px;background:var(--olive);color:#fff;font:700 15px/1 var(--font-b);text-decoration:none;border:1px solid var(--olive);margin:0 8px 8px 0;transition:background .2s,color .2s}
+.btn:hover{background:#485531}
+.btn.light{background:var(--cream);color:var(--forest);border-color:var(--cream)}
+.btn.light:hover{background:var(--sand)}
+.btn.ghost{background:none;color:inherit;border-color:currentColor}
+.btn.ghost:hover{background:rgba(127,127,127,.15)}
+.link{font-weight:700;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{padding:7px 14px;border-radius:999px;border:1px solid currentColor;font-size:13px;font-weight:600;opacity:.9}
+/* первый экран: тёмный лесной блок, фото со скруглённым углом, текст под фото */
+.hero{background:var(--forest);color:var(--cream);padding:8px 0 36px}
+.hero .pic img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 32%;border-radius:24px 80px 24px 24px}
+.hero .txt{padding-top:22px}
+.hero .eyebrow{color:var(--sand)}
+.hero .cta{margin:22px 0 0}
+.hero .chips{margin-top:14px}
+.ticker{overflow:hidden;background:var(--olive);color:#fff}
+.ticker div{display:flex;width:max-content;animation:tick 70s linear infinite}
+.ticker:hover div{animation-play-state:paused}
+.ticker span{flex:none;padding:13px 24px;border-right:1px solid rgba(255,255,255,.25);font-size:13px;line-height:1.35;white-space:nowrap;opacity:.95}
+.ticker b{display:block;font:500 14px/1.3 var(--font-h);text-transform:uppercase}
+@keyframes tick{to{transform:translateX(-50%)}}
+section{padding:56px 0}
+section.sand{background:#f1ead9}
+section.dark{background:var(--forest);color:var(--cream)}
+section.dark .eyebrow{color:var(--sand)}
+section.dark .intro{color:#c9cdbb}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.stats div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 16px}
+.stats b{display:block;font:500 20px/1.2 var(--font-h);text-transform:uppercase;color:var(--olive)}
+.stats span{color:var(--muted);font-size:14px}
+.stays{display:grid;gap:16px}
+.stay{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden}
+.stay .media{position:relative}
+.stay .media img,.stay .media .ph{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:0;border:0}
+.badge{position:absolute;left:14px;top:14px;background:var(--cream);color:var(--forest);font-size:13px;font-weight:700;padding:7px 14px;border-radius:999px}
+.stay .body{padding:20px}
+.stay p{margin:8px 0 0;color:var(--muted)}
+.stay ul{list-style:none;padding:0;margin:14px 0 18px}
+.stay li{padding:9px 0;border-top:1px solid var(--line);font-size:15px}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.act{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.act .num{display:block;font:500 13px/1 var(--font-h);color:var(--olive);margin-bottom:22px}
+.act h3{font-size:15px}
+.act p{margin:8px 0 0;color:var(--muted);font-size:14px;line-height:1.5}
+.photo{margin:0}
+.photo img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px 80px 24px 24px}
+.photo figcaption{margin-top:12px;font:500 15px/1.3 var(--font-h);text-transform:uppercase}
+.split{display:grid;gap:24px}
+.ph{aspect-ratio:4/3;display:grid;place-items:center;text-align:center;padding:14px;color:var(--muted);font-size:13px;line-height:1.35;background:var(--sand);border-radius:18px}
+.ph b{display:block;color:var(--fg);margin:6px 0 2px}
+.ph svg{margin:0 auto}
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.gal img,.gal .ph{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:18px}
+.gal>:first-child{border-radius:18px 56px 18px 18px}
+.knows{display:grid;gap:10px}
+.know{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.know p{margin:8px 0 0;color:var(--muted);font-size:15px}
+.contact{display:grid;gap:24px}
+.contact dl{margin:0}
+.contact dt{font-size:13px;font-weight:600;color:var(--olive);margin-top:16px}
+.contact dd{margin:2px 0 0;font-size:17px}
+.bye{text-align:center}
+.bye p{max-width:44ch;margin:14px auto 22px;color:#c9cdbb}
+footer{padding:24px 0 36px;color:var(--muted);font-size:13px}
+.stay .media{display:block;width:100%;padding:0;border:0;background:none;cursor:pointer;color:inherit;font:inherit}
+.row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px}
+.price{font-size:14px;color:var(--muted)}
+.price b{font:500 17px/1 var(--font-h);color:var(--fg)}
+.btn.sm{min-height:44px;padding:10px 20px;margin:0 0 0 auto;cursor:pointer}
+/* карточка дома открывается поверх страницы */
+html:has(dialog[open]){overflow:hidden}
+dialog.sheet{border:0;padding:0;width:100%;max-width:100%;max-height:92dvh;margin:auto 0 0;border-radius:24px 24px 0 0;background:var(--card);color:var(--fg);overflow:auto}
+dialog.sheet::backdrop{background:rgba(20,26,18,.62)}
+dialog.sheet[open]{animation:sheet .3s var(--ease)}
+@keyframes sheet{from{transform:translateY(40px);opacity:0}}
+.sheet .x{position:sticky;top:10px;z-index:2;display:block;width:44px;height:44px;margin:0 10px -54px auto;border:0;border-radius:50%;background:var(--cream);color:var(--fg);font-size:26px;line-height:1;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.shots{display:flex;gap:6px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.shots>*{flex:none;width:86%;aspect-ratio:4/3;object-fit:cover;scroll-snap-align:start;border-radius:0}
+.sheet .body{padding:20px 20px 28px}
+.sheet p{margin:8px 0 0;color:var(--muted)}
+.sheet ul{list-style:none;padding:0;margin:16px 0}
+.sheet li{padding:10px 0;border-top:1px solid var(--line);font-size:15px}
+.sheet .cta{margin-top:18px}
+/* маленькая плавающая кнопка связи */
+.fab{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom));z-index:30}
+.fab summary{list-style:none;display:flex;align-items:center;gap:8px;min-height:48px;padding:0 18px;border-radius:999px;background:var(--olive);color:#fff;font-weight:700;font-size:15px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.28)}
+.fab summary::-webkit-details-marker{display:none}
+.fab[open] summary{background:var(--forest)}
+.fab div{position:absolute;right:0;bottom:58px;display:grid;gap:8px;width:max-content;justify-items:end}
+.fab a{display:flex;align-items:center;min-height:48px;padding:0 20px;border-radius:999px;background:var(--card);color:var(--fg);font-weight:700;font-size:15px;text-decoration:none;border:1px solid var(--line);box-shadow:0 6px 20px rgba(0,0,0,.2)}
+.revs{display:grid;gap:10px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.rev .stars{color:var(--olive);letter-spacing:2px}
+.rev p{margin:8px 0 10px;color:var(--muted)}
+.rev span{font-size:13px;font-weight:600}
+.faq{border-bottom:1px solid var(--line);max-width:760px}
+.faq details{border-top:1px solid var(--line)}
+.faq summary{list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center;min-height:56px;padding:8px 0;font-weight:700;cursor:pointer}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:22px;font-weight:400;color:var(--olive)}
+.faq details[open] summary::after{content:"–"}
+.faq p{margin:0 0 16px;color:var(--muted)}
+.js [data-reveal]{opacity:0;transform:translateY(14px);transition:opacity .5s var(--ease),transform .5s var(--ease)}
+.js [data-reveal].is-in{opacity:1;transform:none}
+@media (min-width:821px){
+ body{font-size:17px}
+ nav{display:block}
+ .hero{padding:40px 0 64px}
+ .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+ .hero .pic{order:2}
+ .hero .pic img{aspect-ratio:4/5;max-height:76vh;border-radius:28px 110px 28px 28px}
+ .lead{font-size:19px}
+ section{padding:92px 0}
+ .stats{grid-template-columns:repeat(4,1fr);gap:14px}
+ .stays{grid-template-columns:repeat(3,1fr)}
+ .acts{grid-template-columns:repeat(3,1fr);gap:14px}
+ .act{padding:22px}
+ .act h3{font-size:17px}
+ .split{grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+ .gal{grid-template-columns:repeat(3,1fr);gap:14px}
+ .knows{grid-template-columns:repeat(4,1fr);gap:14px}
+ .contact{grid-template-columns:1fr 1fr;gap:48px}
+ .revs{grid-template-columns:repeat(3,1fr);gap:14px}
+ dialog.sheet{width:min(760px,92vw);margin:auto;border-radius:24px;max-height:88vh}
+ .shots>*{width:62%}
+ .sheet .body{padding:28px 32px 32px}
+}
+@media (prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation:none!important;transition:none!important}
+ .js [data-reveal]{opacity:1;transform:none}
+}
+</style></head><body>
+<div class="demo">Демо-версия для показа владельцам, это не официальный сайт. Тексты и фото заменим на ваши.</div>
+<header class="top"><div class="wrap"><a class="brand" href="#">Дикий Дом</a><nav aria-label="Разделы"><a href="#doma">Дома</a><a href="#dela">Чем заняться</a><a href="#sobytiya">События</a><a href="#galereya">Фото</a><a href="#usloviya">Условия</a><a href="#kontakty">Контакты</a></nav></div></header>
+<main>
+<div class="hero"><div class="wrap"><div class="pic"><img src="dom-1.jpg" alt="Шатёр на деревянном помосте с лестницей, вокруг лес" width="900" height="1600"></div>
+<div class="txt"><div class="eyebrow">Приморье · Подъяпольское · 100 метров до моря</div><h1>Сбежать от мира красиво</h1>
+<p class="lead">Ты, лес, море и свобода. Поселитесь в шатре среди деревьев, готовьте на огне, а утром идите к воде.</p>
+<p class="cta"><a class="btn light" href="#doma">Выбрать дом</a><a class="btn ghost" href="tel:+79243270647">Позвонить</a></p>
+<div class="chips"><span>2 дома-шатра</span><span>до 10 гостей</span><span>5,0 в 2ГИС</span></div></div></div></div>
+<div class="ticker" aria-hidden="true"><div><span><b>Море</b>100 метров от ворот</span><span><b>Кинотеатр</b>проектор и экран в шатре</span><span><b>Костёр</b>кострище и места у огня</span><span><b>Барбекю</b>мангал, решётки, посуда</span><span><b>Сапы и лодка</b>выход на воду с территории</span><span><b>Караоке</b>и настольные игры</span><span><b>Гамак</b>среди деревьев</span><span><b>Батут</b>для детей</span><span><b>Кальян</b>по вечерам</span><span><b>Интернет</b>в обоих домах</span><span><b>Море</b>100 метров от ворот</span><span><b>Кинотеатр</b>проектор и экран в шатре</span><span><b>Костёр</b>кострище и места у огня</span><span><b>Барбекю</b>мангал, решётки, посуда</span><span><b>Сапы и лодка</b>выход на воду с территории</span><span><b>Караоке</b>и настольные игры</span><span><b>Гамак</b>среди деревьев</span><span><b>Батут</b>для детей</span><span><b>Кальян</b>по вечерам</span><span><b>Интернет</b>в обоих домах</span></div></div>
+<section><div class="wrap"><div data-reveal><div class="eyebrow">О месте</div><h2>Хорошо, когда вокруг только лес</h2><p class="intro">Домов всего два, поэтому здесь тихо: ни очереди к мангалу, ни чужой музыки. Вечером слышно костёр, утром — птиц.</p></div>
+<div class="stats" data-reveal><div><b>2 дома</b><span>на шестерых и на четверых</span></div><div><b>100 м</b><span>пешком до моря</span></div><div><b>5,0</b><span>в 2ГИС, 21 оценка</span></div><div><b>Только еда</b><span>всё остальное уже на месте</span></div></div></div></section>
+<section id="doma" class="sand"><div class="wrap"><div data-reveal><div class="eyebrow">Где жить</div><h2>Шатёр на шестерых или на четверых</h2><p class="intro">Оба дома стоят на деревянных помостах прямо между деревьями. Внутри — кровати, свет и интернет, снаружи — лес.</p></div>
+<div class="stays" data-reveal><article class="stay"><button class="media" type="button" data-open="d1" aria-label="Смотреть: Дом на шестерых"><img src="dom-2.jpg" alt="Шатёр среди цветущих деревьев" loading="lazy" width="900" height="1600"><span class="badge">до 6 гостей</span></button><div class="body"><div class="eyebrow">01 · Большой шатёр</div><h3>Дом на шестерых</h3><p>Для компании друзей или двух семей. Вечером опускаете экран, включаете проектор — и у вас кино посреди леса.</p><div class="row"><span class="price">от <b>…&nbsp;₽</b> за сутки</span><button class="btn sm" type="button" data-open="d1">Смотреть дом</button></div></div></article><article class="stay"><button class="media" type="button" data-open="d2" aria-label="Смотреть: Дом на четверых"><img src="dom-3.jpg" alt="Шатёр за ветками цветущей черёмухи" loading="lazy" width="900" height="1600"><span class="badge">до 4 гостей</span></button><div class="body"><div class="eyebrow">02 · Маленький шатёр</div><h3>Дом на четверых</h3><p>Для семьи или пары, которой хочется тишины. Откидываете полог — и перед вами только деревья.</p><div class="row"><span class="price">от <b>…&nbsp;₽</b> за сутки</span><button class="btn sm" type="button" data-open="d2">Смотреть дом</button></div></div></article><article class="stay"><button class="media" type="button" data-open="d3" aria-label="Смотреть: Гостиная под брезентом"><div class="ph"><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Общая зона: общий вид</div></div><span class="badge">для всех гостей</span></button><div class="body"><div class="eyebrow">03 · Общий шатёр</div><h3>Гостиная под брезентом</h3><p>Место, где собираются вместе: диваны, большой стол, игры и ещё один экран для кино.</p><div class="row"><button class="btn sm" type="button" data-open="d3">Смотреть дом</button></div></div></article></div></div></section>
+<section id="dela"><div class="wrap"><div data-reveal><div class="eyebrow">Чем заняться</div><h2>Днём — к морю, вечером — к огню</h2><p class="intro">Можно ничего не планировать: всё в нескольких шагах от дома.</p></div>
+<div class="acts" data-reveal><div class="act"><span class="num">01</span><h3>Костёр</h3><p>Кострище в лесу и места вокруг огня. Здесь заканчивается каждый вечер.</p></div><div class="act"><span class="num">02</span><h3>Барбекю</h3><p>Мангал, решётки и посуда уже на месте. Привезите только продукты.</p></div><div class="act"><span class="num">03</span><h3>Сапы</h3><p>Берёте доску и идёте к воде — до берега сто метров.</p></div><div class="act"><span class="num">04</span><h3>Лодка</h3><p>Выйти в бухту на вёслах и посмотреть на лес с воды.</p></div><div class="act"><span class="num">05</span><h3>Кино под брезентом</h3><p>Проектор, экран и колонка. Фильм выбираете сами.</p></div><div class="act"><span class="num">06</span><h3>Гамак, батут, кальян</h3><p>Гамак между деревьями, батут для детей, кальян и караоке для взрослых.</p></div></div></div></section>
+<section class="sand"><div class="wrap split"><figure class="photo" data-reveal><img src="posuda.jpg" alt="Посуда для гостей на деревянном столе" loading="lazy" width="900" height="1200"><figcaption>Посуда уже ждёт на столе</figcaption></figure>
+<div data-reveal><div class="eyebrow">Как это устроено</div><h2>Как в походе. Только с кроватью и душем</h2><p class="intro">Вместо стен — брезент, вместо двора — лес. При этом спите вы на нормальной кровати, душ и туалет рядом, а посуда и мангал уже ждут.</p><a class="link" href="#usloviya">Что взять с собой ↗</a></div></div></section>
+<section id="sobytiya" class="dark"><div class="wrap"><div data-reveal><div class="eyebrow">Особенные события</div><h2>Весь лес — под ваш повод</h2><p class="intro">Оба дома и общий шатёр можно снять целиком: никого, кроме ваших гостей.</p>
+<div class="chips"><span>дни рождения</span><span>девичники</span><span>ретриты и чайные вечера</span><span>фотодни и съёмки</span><span>небольшие корпоративы</span></div>
+<p style="margin:24px 0 0"><a class="btn light" href="tel:+79243270647">Позвонить и обсудить</a></p></div></div></section>
+<section id="galereya"><div class="wrap"><div data-reveal><div class="eyebrow">Фото</div><h2>Посмотрите, как здесь</h2><p class="intro">Четыре снимка взяты из вашего канала, на месте остальных будут ваши.</p></div>
+<div class="gal" data-reveal><img src="dom-1.jpg" alt="Шатёр на помосте с лестницей" loading="lazy" width="900" height="1600"><img src="dom-2.jpg" alt="Шатёр среди цветущих деревьев" loading="lazy" width="900" height="1600"><img src="dom-3.jpg" alt="Вид на шатёр сквозь ветки" loading="lazy" width="900" height="1600"><img src="posuda.jpg" alt="Посуда для гостей на деревянном столе" loading="lazy" width="900" height="1200"><div class="ph "><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Море и берег</div></div><div class="ph "><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Вечер у костра</div></div></div></div></section>
+<section class="sand"><div class="wrap"><div data-reveal><div class="eyebrow">Отзывы</div><h2>5,0 в 2ГИС — так оценили гости</h2><p class="intro">21 оценка, все пятёрки. Сюда поставим три настоящих отзыва из 2ГИС — с именами гостей.</p></div><div class="revs" data-reveal><div class="rev"><div class="stars" aria-label="5 из 5">★★★★★</div><p>Здесь будет отзыв гостя из 2ГИС.</p><span>Имя гостя</span></div><div class="rev"><div class="stars" aria-label="5 из 5">★★★★★</div><p>Здесь будет отзыв гостя из 2ГИС.</p><span>Имя гостя</span></div><div class="rev"><div class="stars" aria-label="5 из 5">★★★★★</div><p>Здесь будет отзыв гостя из 2ГИС.</p><span>Имя гостя</span></div></div></div></section><section id="usloviya"><div class="wrap"><div data-reveal><div class="eyebrow">Перед поездкой</div><h2>Частые вопросы</h2><p class="intro">Отвечаем заранее, чтобы вам не пришлось спрашивать.</p></div>
+<div class="faq" data-reveal><details><summary>Что взять с собой?</summary><p>Еду и напитки. Посуда, мангал, столы и стулья уже на месте.</p></details><details><summary>Есть ли душ, туалет и интернет?</summary><p>Да. Душ и туалет — рядом с общим шатром, интернет есть в обоих домах.</p></details><details><summary>Можно ли с детьми?</summary><p>Да. Для детей есть батут, а до моря — сто метров пешком.</p></details><details><summary>Доедет ли обычная машина?</summary><p>Доедет любая. Точку и маршрут подскажем по телефону.</p></details><details><summary>Сколько стоит?</summary><p>Здесь будут ваши цены за сутки: дом на шестерых, дом на четверых и вся территория целиком.</p></details><details><summary>Во сколько заезд и выезд?</summary><p>Здесь будут ваши правила: время заезда и выезда, залог, тишина.</p></details></div></div></section>
+<section id="kontakty" class="sand"><div class="wrap contact" data-reveal><div><div class="eyebrow">Контакты</div><h2>До встречи в «Диком Доме»</h2><p class="intro">Позвоните — расскажем про свободные дни и ответим на вопросы. Свежие фото и новости — в канале.</p><a class="btn" href="tel:+79243270647">Позвонить</a><a class="btn ghost" href="https://t.me/dikdomik">Канал в Telegram</a></div>
+<dl><dt>Адрес</dt><dd>Приморский край, Шкотовский район, пос. Подъяпольское, ул. Дачная, 8<br><a class="link" style="font-size:15px" href="https://yandex.ru/maps/?text=%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D1%80%D0%B0%D0%B9%2C%20%D0%9F%D0%BE%D0%B4%D1%8A%D1%8F%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B5%2C%20%D0%94%D0%B0%D1%87%D0%BD%D0%B0%D1%8F%208">Открыть на карте ↗</a></dd><dt>На связи</dt><dd>Ежедневно, 8:00–22:00</dd><dt>Телефон</dt><dd><a href="tel:+79243270647">+7 924 327-06-47</a></dd></dl></div></section>
+<section class="dark bye"><div class="wrap" data-reveal><h2>Побудьте в лесу</h2><p>Приезжайте пожить среди деревьев, посидеть у огня и сходить к морю.</p><a class="btn light" href="tel:+79243270647">Позвонить</a></div></section>
+</main>
+<footer><div class="wrap">Черновик сайта. Сделал Николай · Telegram @goldement · mersisk.github.io</div></footer>
+<dialog class="sheet" id="d1" aria-labelledby="d1-t"><div class="in"><button class="x" type="button" data-close aria-label="Закрыть">×</button><div class="shots"><img src="dom-2.jpg" alt="Шатёр среди цветущих деревьев" loading="lazy" width="900" height="1600"><div class="ph"><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Спальные места</div></div><div class="ph"><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Кинотеатр вечером</div></div></div><div class="body"><div class="eyebrow">01 · Большой шатёр · до 6 гостей</div><h3 id="d1-t">Дом на шестерых</h3><p>Для компании друзей или двух семей. Вечером опускаете экран, включаете проектор — и у вас кино посреди леса.</p><ul><li>Шесть спальных мест</li><li>Свой кинотеатр: проектор, экран и колонка</li><li>Стол и стулья на всю компанию</li><li>Интернет</li><li>Душ и туалет рядом</li><li>Мангал, посуда и кострище — общие, в двух шагах</li></ul><p><span class="price">от <b>…&nbsp;₽</b> за сутки</span></p><p class="cta"><a class="btn" href="tel:+79243270647">Позвонить</a></p></div></div></dialog><dialog class="sheet" id="d2" aria-labelledby="d2-t"><div class="in"><button class="x" type="button" data-close aria-label="Закрыть">×</button><div class="shots"><img src="dom-3.jpg" alt="Шатёр за ветками цветущей черёмухи" loading="lazy" width="900" height="1600"><div class="ph"><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Внутри дома</div></div><div class="ph"><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Вид из дома</div></div></div><div class="body"><div class="eyebrow">02 · Маленький шатёр · до 4 гостей</div><h3 id="d2-t">Дом на четверых</h3><p>Для семьи или пары, которой хочется тишины. Откидываете полог — и перед вами только деревья.</p><ul><li>Четыре спальных места</li><li>Интернет</li><li>Лес прямо у порога</li><li>Душ и туалет рядом</li><li>Мангал, посуда и кострище — общие, в двух шагах</li></ul><p><span class="price">от <b>…&nbsp;₽</b> за сутки</span></p><p class="cta"><a class="btn" href="tel:+79243270647">Позвонить</a></p></div></div></dialog><dialog class="sheet" id="d3" aria-labelledby="d3-t"><div class="in"><button class="x" type="button" data-close aria-label="Закрыть">×</button><div class="shots"><div class="ph"><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Общая зона: общий вид</div></div><div class="ph"><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Кинотеатр</div></div><div class="ph"><div><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></svg><b>Здесь будет ваше фото</b>Настольные игры</div></div></div><div class="body"><div class="eyebrow">03 · Общий шатёр · для всех гостей</div><h3 id="d3-t">Гостиная под брезентом</h3><p>Место, где собираются вместе: диваны, большой стол, игры и ещё один экран для кино.</p><ul><li>Диваны и большой стол</li><li>Кинотеатр с проектором</li><li>Настольные игры и караоке</li><li>Душ и туалет рядом</li></ul><p class="cta"><a class="btn" href="tel:+79243270647">Позвонить</a></p></div></div></dialog>
+<details class="fab"><summary><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>Связаться</summary><div><a href="https://t.me/dikdomik">Канал в Telegram</a><a href="tel:+79243270647">Позвонить</a></div></details>
+<script>
+document.documentElement.classList.add('js');
+// карточки домов поверх страницы и закрытие меню связи по клику мимо
+document.addEventListener('click', e => {
+  // Telegram: на телефоне сначала открываем приложение (сайт t.me часто не грузится), если не вышло — обычная ссылка
+  const tg = e.target.closest('a[href^="https://t.me/"]');
+  if (tg && matchMedia('(pointer:coarse)').matches) {
+    e.preventDefault();
+    location.href = 'tg://resolve?domain=' + tg.pathname.slice(1);
+    return setTimeout(() => { if (!document.hidden) location.href = tg.href; }, 1500);
+  }
+  const o = e.target.closest('[data-open]');
+  if (o) return document.getElementById(o.dataset.open).showModal();
+  if (e.target.closest('[data-close]') || e.target.matches('dialog')) e.target.closest('dialog').close();
+  const f = document.querySelector('.fab');
+  if (f.open && !e.target.closest('.fab')) f.open = false;
+});
+(() => {
+  const t = document.querySelectorAll('[data-reveal]');
+  if (!('IntersectionObserver' in window)) return t.forEach(e => e.classList.add('is-in'));
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } }), { threshold: 0.08 });
+  t.forEach(e => io.observe(e));
+})();
+</script>
+</body></html>
